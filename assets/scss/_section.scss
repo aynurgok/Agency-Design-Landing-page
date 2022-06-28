@@ -1,0 +1,667 @@
+//introduction
+.introduction {
+    margin-top:70px;
+    .container {
+       position: relative;
+       display: flex;
+       margin-bottom:100px;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       .hero {
+        z-index: 1;
+       }
+
+       .blue_dot1 {
+        position: absolute;
+        width: 31px;
+        height: 31px;
+        border-radius: 50px;
+        background-color: $buttonColor;
+        left: 94px;
+        top: 243px;
+        
+       }
+       .blue_dot2 {
+        position: absolute;
+        width: 31px;
+        height: 31px;
+        border-radius: 50px;
+        background-color: $buttonColor;
+        left: 1215px;
+        top: 417px;
+       }
+       .pink_dot {
+        position: absolute;
+        width: 31px;
+        height: 31px;
+        border-radius: 50px;
+        background: linear-gradient(180deg, #FF8E8E 0%, #F62424 100%);
+        box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.05);
+        left: 255px;
+        top: 720px;
+    }
+    
+    .blue-dots-icon {
+        position: absolute;
+        top:440px;
+        left:400px;
+    }
+    .pink-dots-icon {
+        position: absolute;
+        top:890px;
+        left:450px;
+    }
+    
+       .section_text {
+        width: 749px;
+        font-family: 'Nunito', sans-serif;
+        height: 174px;
+        font-size: 64px;
+        font-weight: 800;
+        line-height: 87px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        
+        
+       }
+       .small-text{
+        width: 767px;
+        height: 60px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 37px;
+        text-align: center;
+        color:$smallTextColor;
+        opacity: .6;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        margin:24px 0 32px 0;
+       }
+      
+
+      
+       button {
+        width: 201px;
+        height: 48px;        
+        font-family: 'Quicksand', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+        color:#FFFFFF;
+        letter-spacing: 0.01em;
+        background-color: $buttonColor;
+        border-radius: 24px;
+        margin-bottom:111px;
+       
+       }
+       .position {
+        .up_box {
+            z-index: 1;
+            position: absolute;
+            width: 175px;
+            height: 95px;
+            left: 135px;
+            top: 490px;
+            background: #FFFFFF;
+            box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+            border-radius: 16px;
+            padding:20px 32px 16px 20px;
+            .star_text {
+                display: flex;
+                gap:5px;
+                align-items: center;
+                padding-bottom:11px;
+                
+                p {
+                    font-size: 12px;
+                    font-family: 'Quicksand', sans-serif;
+                    font-weight: 700;
+                    color:$mainColor;
+                    opacity: 0.5;
+                }
+            }
+            p {
+                display: flex;
+                align-items: center;
+                span {
+                    font-weight: 600;
+                }
+            }
+
+        }
+       }
+       .comment_box {
+        z-index: 1;
+        position: absolute;
+        width: 166px;
+        height: 166px;
+        right: 150px;
+        top: 800px;
+        background: #FFFFFF;
+        box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+        border-radius: 16px;
+        padding:27px 20px 25px 21px;
+        align-items: center;
+        
+        .images {
+            display: flex;
+            gap:10px;
+            align-items: center;
+            
+            .name {
+                display: flex;
+                flex-direction: column;
+                gap:2px;
+                p:first-child {
+                    font-size:10px;
+                    line-height:12.5px;
+                    font-weight: 600;
+                    font-family: 'Quicksand';
+                }
+                p:last-child {
+                    font-size: 6px;
+                    line-height:12.5px;
+                    font-weight: 600;
+                    font-family: 'Quicksand';
+                    letter-spacing: 0.01em;
+                    font-style: normal;
+                    opacity: 0.5;
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                }
+            }
+        }
+        .comment-text {
+            margin-top:12px;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 14px;
+            letter-spacing: 0.01em;
+           
+        }
+       }
+
+    }
+}
+
+//stats 
+.stats {
+    margin-top:160px;
+    .container {
+        display: flex;
+        place-items: center;
+        flex-direction: column;
+        .teammate {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            .orange-dots-icon {
+                position: absolute;
+                left:-25px;
+                top:145px;
+                z-index: 0;
+                
+            }
+            .pink-dots-icons {
+                position: absolute;
+                left: 490.06px;
+                top: 500.2px;
+                
+            }
+           
+            .row {
+                margin-top:38px;
+                display: flex;
+                align-items:center;
+                gap:65px;
+                img {
+                    z-index: 1;
+
+                }
+                .long-text {
+                font-family:'Quicksand';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 32px;
+                letter-spacing: 0.01em;
+                color:$textColor;
+                width: 610px;
+                height: 280px;
+                z-index: 1;
+                p:first-child {
+                    padding-bottom:24px;
+                }
+                
+                
+                }
+                .buttons {
+                    margin-top:36px;
+                    display: flex;
+                    align-items: center;
+                    gap:20px;
+                    button:first-child{
+                        width: 171px;
+                        height: 48px;
+                        box-shadow: 0px 4px 8px rgba(55, 125, 255, 0.5);
+                        border-radius: 24px;
+                        background-color: $buttonColor;
+                        color:white;
+                        font-family: 'Quicksand';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 0.01em;
+
+                    }
+                    button:last-child{
+                        width: 180px;
+                        height: 48px;
+                        border:1px solid $buttonColor;
+                        border-radius: 24px;
+                        background-color: transparent;
+                        color:$buttonColor;
+                        font-family: 'Quicksand';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 0.01em;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .triangle {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 20px;
+                            height: 20px;
+                            border-radius: 50px;
+                            border:1px solid $buttonColor;
+                        }
+                        span {
+                            margin-left: 12px;
+                        }
+                    }
+
+                }
+            }
+
+        }
+
+        .our-services {
+            display: flex;
+            gap:154px;
+            margin-top:160px;
+            align-items: center;
+            justify-content: space-between;
+            
+            .left-area {
+                display: flex;
+                flex-direction: column;
+                
+                .read-more {
+                    display: flex;
+                    margin-top: 36px;
+                    gap: 19px;
+                    align-items: center;
+                    justify-content: right;
+                    p {
+                        font-family:'Quicksand';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 34px;
+                        letter-spacing: 0.01em;
+                        color:$buttonColor;
+                    }
+                    
+                }
+
+            }
+            .right-area {
+                margin:auto;
+                gap:41px;
+                .social {
+                    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
+                    .social-img {
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50px;
+                        background-color: $buttonColor;
+                        display: flex;
+                        align-items: center;
+                        justify-content:center ;
+                    }
+                 
+                  p {
+                    width: 156px;
+                    height: 68px;
+                  }
+                }
+                .settings {
+                  .setting-img {
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50px;
+                        background-color: $redCircle;
+                        display: flex;
+                        align-items: center;
+                        justify-content:center ;
+                  }
+                  p {
+                    width: 168px;
+                    height: 68px;
+                  }
+                }
+                .design {
+                  .design-img {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50px;
+                    background-color: $greenCircle;
+                    display: flex;
+                    align-items: center;
+                    justify-content:center ;
+                   
+                      p {
+                        width: 80px;
+                        height: 34px;
+                      }
+                  }
+                }
+                .ads {
+                  .ads-img {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50px;
+                    background-color: $yellowCircle;
+                    display: flex;
+                    align-items: center;
+                    justify-content:center ;
+                  }
+                  p {
+                    width: 43px;
+                    height: 34px;
+                  }
+                }
+              }
+            
+        }
+
+        
+    }
+}
+
+.right-area {
+    width: 565px;
+    height: 576px;
+    display: grid;
+    background-color: rgb(252, 255, 255);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 262px 269px;
+    .social, .settings, .design, .ads {
+       border-radius: 30px;
+       background-color: #FFFFFF;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       padding:35px 53px 34px 53px;
+       cursor: pointer;
+       
+       
+        
+       p {
+        margin-top:32px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        letter-spacing: 0.01em;
+       }
+       
+    }
+}
+
+//portfolio
+.portfolio {
+    margin-top:130px;
+    position: relative;
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .entrange {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .small-grey-text {
+                width: 674px;
+                height: 67px;
+                padding-top:28px;
+                margin-bottom:58px;
+            }
+            .pink-dots-icon {
+                position: absolute;
+                bottom:10px;
+                right: -280px;
+            }
+        }
+        .apps {
+            display: flex;
+            height: 400px;
+            gap:69px;
+
+            .portfolio_images {
+                position: relative;
+                p {
+                    position: absolute;
+                    left: 24px;
+                    bottom: 100px;
+                    display: inline-block;
+                    font-family: 'Quicksand';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    color: #FFFFFF;
+                    &.cloud {
+                        bottom: 60px;
+                    }
+                }
+            }
+        }
+        button {
+            width: 226px;
+            height: 48px;
+            border-radius: 24px;
+            border:1px solid $buttonColor;
+            background-color: #FFFFFF;
+            font-family: 'Quicksand';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.01em;
+            color:$buttonColor;
+            margin-top: 24px;
+        }
+    }
+}
+
+//testimonial
+.testimonial-area {
+    margin-top:208px;
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        .testimonial {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom:50px;
+            position: relative;
+            
+            .blue-dots-icon {
+                position: absolute;
+                left: -250.34px;
+                top: 5px;
+                transform: rotate(14.48deg);
+            }
+           .blue-dots2-icon {
+                position: absolute;
+                left: 805.34px;
+                top: 450px;
+                transform: rotate(14.48deg);
+           }
+           
+            
+        }
+        .boxes {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:50px;
+            .box {
+                width: 380px;
+                height: 335px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                border-radius: 20px;
+                background-color: #FFFFFF;
+                box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
+                z-index: 1;
+                .box_container {
+                    margin: 0 auto;
+                    .person {
+                        display: flex;
+                        align-items: center;
+                        gap:30px;
+                        margin-bottom :25px;
+                        .name {
+                            p:first-child {
+                                font-family: 'Quicksand';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 20px;
+                                letter-spacing: 0.01em;
+                                color:$buttonColor;
+                            }
+                            p:last-child {
+                                font-family: 'Quicksand';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 11px;
+                                line-height: 34px;
+                                letter-spacing: 0.01em;
+                                color: $textColor;
+                                opacity: 0.5;
+                            }
+                        }
+                    }
+                    .content {
+                        width: 309px;
+                        font-family: 'Quicksand';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 28px;
+                        letter-spacing: 0.01em;
+                        color:$textColor;
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+        .blue-dots2-icon {
+            position: absolute;
+           top:4475px;
+           right:37px;
+            transform: rotate(14.48deg);
+        }
+    }
+}
+
+.collaborations {
+    margin-top:284px;
+    margin-bottom:178px;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .left {
+            display: flex;
+            flex-direction: column;
+            width: 491px;
+            .left-text {
+                width: 351px;
+                height: 34px;
+                font-family: 'Quicksand';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 34px;
+                letter-spacing: 0.01em;
+                color:$textColor;
+                padding:25px 0 25px 0;
+                
+            }
+            button {
+                width: 193px;
+                height: 48px;
+                box-shadow: 0px 4px 8px rgba(55, 125, 255, 0.5);
+                border-radius: 24px;
+                background-color: $buttonColor;
+                color:#FFFFFF;
+                margin-top: 25px;
+            }
+        }
+        .right {
+            align-items: center;
+            position: relative;
+            .images {
+                position: relative;
+                .i6 {
+                    position: absolute;
+                    bottom: -166px;
+                    z-index: 1;
+                    right: 264px;
+                }
+                .i7 {
+                    position: absolute;
+                    bottom: -60px;
+                    right: 1px;
+                }
+                .blue-dots-icon {
+                    position: absolute;
+                    right:505px;
+                    bottom:75px;
+                }
+                .orange-bigdots-icon {
+                    position: absolute;
+                    right:85px;
+                    bottom:-135px;
+                }
+            }
+        }
+        
+    }
+}
